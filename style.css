@@ -7,6 +7,13 @@
         padding-right: 15px;
         height:25px;
   }
+
+  .span{
+    color: white; /* Change the text color */
+    background-color: blue; /* Change the background color */
+    font-size: 24px; /* Change the font size */
+    padding: 10px 20px; /* Adjust padding for better sizing */
+  }
   .login-icon:hover, 
   .cart-icon:hover{
     cursor: pointer; /* Change cursor to a pointer hand */
