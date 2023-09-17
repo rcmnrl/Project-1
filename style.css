@@ -1,0 +1,14 @@
+
+  .about{
+    
+        background-color: rgb(244, 0, 0); 
+        border: px ; 
+        padding: 20px;
+        padding-right: 15px;
+        height:25px;
+  }
+  .login-icon:hover, 
+  .cart-icon:hover{
+    cursor: pointer; /* Change cursor to a pointer hand */
+    color: #007bff; /* Change text color on hover (you can choose any color you like) */
+}
