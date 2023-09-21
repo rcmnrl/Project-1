@@ -1,0 +1,81 @@
+<!DOCTYPE html >
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+<title>form-login</title>
+
+</head>
+<body>
+
+    <style>
+        h2 {
+            margin-bottom: 20px;
+            text-align: center; /* Center-align the h2 element */
+        }
+        .container {
+            background-color: #c4caf5;
+            width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+        
+        .form-group {
+            margin-bottom: -10px;
+        }
+        
+        input[type="submit"] {
+        background-color: #1784f8;
+        color: #fff;
+        border: none;
+        padding: 10px 10px;
+        border-radius: 3px;
+        cursor: pointer;
+        }
+        
+        input[type="submit"]:hover {
+        background-color: #0056b3;
+        
+        }
+        
+        input[type="button"] {
+        background-color: #1784f8;
+        color: #fff;
+        border: none;
+        padding: 10px 10px;
+        border-radius: 3px;
+        cursor: pointer;
+        }
+        
+        input[type="button"]:hover {
+        background-color: #0056b3;
+        
+        }
+        
+        </style>
+
+        <h2>Login</h2>
+   <div class="container">
+    <form action="/action_page.php" method="POST">
+        <div class="form-group">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+        </div> <br>
+        <div class="form-group">
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+        </div> <br>
+        <div class="form-group">
+            <input type="submit" value="Login">
+            <input type="button" value="Cancel">
+        </div>
+    </form>
+    <p>Don't have an account? <a href="create-account.html">Create Account</a></p>
+    <p><a href="forgot-password.html">Forgot Password?</a></p>
+</div>
+    
+
+</body>
+
+</html>

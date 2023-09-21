@@ -19,3 +19,40 @@
     cursor: pointer; /* Change cursor to a pointer hand */
     color: #007bff; /* Change text color on hover (you can choose any color you like) */
 }
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
+
+
+ul.horizontal-list {
+  list-style: none;
+  padding: 0;
+}
+
+ul.horizontal-list li {
+  display: inline-block;
+  margin-right: 10px; /* Adjust as needed for spacing */
+}
+
+
+    #Center {
+        display: flex;
+        flex-direction: column; /* Stack items vertically */
+        justify-content: flex-start; /* Align items to the top */
+        align-items: center; /* Center items horizontally */
+        height: 100vh;
+    }
+
+    .content-container {
+        text-align: center; /* Center text within content-container */
+    }
+
+    #Center {
+      text-align: center;
+  }
+
+  /* To place it to the side of #Top */
+  @media (min-width: 768px) {
+      #Center {
+          text-align: left;
+      }
+    }
+
